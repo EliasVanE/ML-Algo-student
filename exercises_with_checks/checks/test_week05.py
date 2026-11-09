@@ -2,9 +2,18 @@
 
 Elke test valideert exact één verplichte variabele uit het notebook:
 bestaat -> type -> drempelwaarde. Geen implementatiehints in de meldingen.
+<<<<<<< HEAD
 """
 import numpy as np
 import pytest
+=======
+
+Let op: de creditcard-oefening zit bewust NIET in de autocheck. De dataset is
+te groot voor GitHub en wordt via het schoolplatform verdeeld; de checks zouden
+anders afhangen van een bestand dat in CI niet aanwezig is.
+"""
+import numpy as np
+>>>>>>> upstream/main
 
 
 def _get(week, name):
@@ -71,6 +80,7 @@ def test_churn_accuracy(week05):
     )
 
 
+<<<<<<< HEAD
 # ---------------- Creditcard ----------------
 
 def test_creditcard_ada_y_pred(week05):
@@ -115,6 +125,8 @@ def test_creditcard_xgb_detecteert_fraude(week05):
     )
 
 
+=======
+>>>>>>> upstream/main
 # ---------------- Meerkeuzevragen ----------------
 
 def test_antwoord_algoritme(week05):

@@ -217,9 +217,14 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
+<<<<<<< HEAD
 #files labo 5
 exercises_with_checks/week05/creditcard.csv
 notebooks/my_mnist.mmap
 ## hidden files
 *hidden*
 
+=======
+## hidden files
+*hidden*
+>>>>>>> upstream/main
